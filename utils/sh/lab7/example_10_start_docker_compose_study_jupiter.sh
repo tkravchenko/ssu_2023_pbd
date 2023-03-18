@@ -3,4 +3,6 @@
 set -u;
 #set -x;
 
+docker-compose down
 docker-compose up -d study_bd_jupyter
+google-chrome http://127.0.0.1:8888/lab/tree/sample.ipynb
