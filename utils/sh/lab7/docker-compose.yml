@@ -2,7 +2,7 @@ version: '3'
 
 services:
   study_bd_jupyter:
-    image: study_bd_jupyter:latest
+    image: study_bd_jupyter
     build:
       context: .
       dockerfile: Dockerfile.study_bd_jupyter
