@@ -41,6 +41,21 @@ by Harry Percival, Bob Gregory](https://www.oreilly.com/library/view/architectur
 - https://pandas.pydata.org/docs/user_guide/10min.html#min
 - https://khashtamov.com/ru/pandas-introduction/
 - https://smysl.io/blog/pandas
+
+### 
+
+- https://matplotlib.org/
+- https://matplotlib.org/stable/tutorials/introductory/pyplot.html
+- https://matplotlib.org/stable/gallery/index.html
+
+### Graph tools
+- https://cloud.datapane.com/reports/87NNEJ7/the-ultimate-guide-to-python-visualization-libraries/
+- https://yadashboard.com/top5-library-python-visualization-data/
+- 
+- https://medium.com/@bigdataschool/7-самых-популярных-python-библиотек-для-визуализации-данных-в-data-science-c0a4875df93b
+- https://habr.com/ru/company/otus/blog/558478/
+- 
+
 ### Docker & Kubernetes
 
 ##### Study Example
