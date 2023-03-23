@@ -2,9 +2,9 @@
 
 Результатом лабораторного практикуму для 3 країн
 
-1. Країна 1
-2. Країна 2
-3. Країна 3
+1. Іспанія
+2. Бангладеш
+3. Ісландія
 
 є наступні матеріали.
 
@@ -12,70 +12,56 @@
 
 ### Python code
 
-- [hello world](src/hello_world.py)
+- [unzipping_files.py](src/unzipping_files.py)
 
 ### Jupiter Notebooks
 
-- [jnb hello world](src/hello_world.jnb)
+- [graphs_with_results.ipynb](src/graphs_with_results.ipynb)
 
-#### Scripts
-
-- [bash hello world](src/hello_world.sh)
 
 ### Файли
 
 #### Вхідні дані (разархівовані та сконвертовані дані)
 
-##### file 1
+##### Oil Prices
 
-- CSV: [file 1](data/file1link1.csv)
-- JSON: [file 1](data/file1link1.json)
-- XLSX [file 1](data/file1link1.xlsx)
+- CSV: [brent-year](data/oil-prices-master/data/brent-year.csv)
+- JSON: [brent-year](data/oil-prices-master/data/brent-year.json)
+- XLSX: [brent-year](data/oil-prices-master/data/brent-year.xlsx)
 
-##### file 2
+##### Wti
 
-- CSV: [file 1](data/file1link1.csv)
-- JSON: [file 1](data/file1link1.json)
-- XLSX [file 1](data/file1link1.xlsx)
+- CSV: [wti-year](data/oil-prices-master/data/wti-year.csv)
+- JSON: [wti-year](data/oil-prices-master/data/wti-year.json)
+- XLSX [wti-year](data/oil-prices-master/data/wti-year.xlsx)
 
-##### file 3
+##### Population
 
-- CSV: [file 1](data/file1link1.csv)
-- JSON: [file 1](data/file1link1.json)
-- XLSX [file 1](data/file1link1.xlsx)
+- CSV: [population](data/population-master/data/population.csv)
+- JSON: [population](data/population-master/data/population.json)
+- XLSX [population](data/population-master/data/population.xlsx)
 
-#### Сгенеровані нові дані
+##### Purchasing power parity (PPP)
 
-##### table 1
+- CSV: [ppp](data/ppp-master/data/ppp-gdp.csv)
+- JSON: [ppp](data/ppp-master/data/ppp-gdp.json)
+- XLSX [ppp](data/ppp-master/data/ppp-gdp.xlsx)
 
-- [table 1](data/file1link1.csv)
-- [table 1](data/file1link1.xlsx)
-- [table 1](data/file1link1.json)
-
-##### table 2
-
-- [table 1](data/file1link1.csv)
-- [table 1](data/file1link1.xlsx)
-- [table 1](data/file1link1.json)
-
-#### Графіки
-
-- [img 1](src/file1link1.jnb)
-- [img 2](img/file1link2.png)
-- [img 2](img/file1link2.jpg)
 
 ---
 
 ## Інструкція до роботи
 
-1. Запускаемо [программу 1](src/hello_world.py).
+1. Запускаемо [unzipping_files.py](src/unzipping_files.py).
 2. Результат программи 1:
-    1. ...
-    2. ...
-    3. ...
-3. Виконуємо код програми 2 в ноутбук ...
+    1. Дістаємо дані з архівів
+    2. Зчитуємо дані та змінюємо формат дати для подальшої роботи
+    3. Зберігаємо дані в 3-х форматах (сsv, xlsx, json)
+3. Виконуємо код програми 2 в ноутбук [graphs_with_results.ipynb](src/graphs_with_results.ipynb)
 4. Результат программи 2
-    1. ...
-    2. ...
-    3. ...
-       ...
+    1. Популяція за 1960-2018 роки: [лінійний графік](img/population_countries_line.png), [кругова діаграма](img/population_countries_pie.png), [стовпчаста діаграма](img/population_countries_bar.png)
+    2. Основні статистичні показники чисельності населення країн: [Іспанія](img/main_statistical_values_spain.png), [Бангладеш](img/main_statistical_values_bangladesh.png), [Ісландія](img/main_statistical_values_iceland.png)
+    3. Зв'язок між цінами на нафту та паритетом купівельної спроможності: [графік](img/correlation_oil_ppp.png)
+    4. Зв'язок між населенням та паритетом купівельної спроможності: [графік](img/correlation_population_ppp.png)
+    5. Зв'язок між цінами на нафту та населенням: [графік](img/correlation_population_oil.png)
+    6. Відсоток паритету купівельної спроможності окремої країни до середнього показника паритету купівельної спроможності усіх країн: [графік](img/percentage_ppp.png)
