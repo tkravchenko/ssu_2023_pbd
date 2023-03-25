@@ -14,9 +14,18 @@
 
 ## Посилання на користні матеріали та інше
 
+### Data Science 
+
+- [Datacamp cheat-sheet](https://www.datacamp.com/cheat-sheet)
+- [Data Science Cheatsheet](https://github.com/aaronwangy/Data-Science-Cheatsheet/)
+- [Data Science Cheatsheets](https://www.kaggle.com/datasets/timoboz/data-science-cheat-sheets)
+- [AI](https://center2m.ru/ai-recognition)
+
+
 ### Datasets
 
 - https://github.com/topics/dataset
+- https://www.kaggle.com/datasets
 - [Datasets](https://github.com/datasets)
 - [Awesome Public Datasets](https://github.com/awesomedata/awesome-public-datasets)
 
@@ -42,7 +51,7 @@ by Harry Percival, Bob Gregory](https://www.oreilly.com/library/view/architectur
 - https://khashtamov.com/ru/pandas-introduction/
 - https://smysl.io/blog/pandas
 
-### 
+### Visualization 
 
 - https://matplotlib.org/
 - https://matplotlib.org/stable/tutorials/introductory/pyplot.html
@@ -92,7 +101,7 @@ by Harry Percival, Bob Gregory](https://www.oreilly.com/library/view/architectur
 - [Preface](https://www.cosmicpython.com/book/preface.html)
 - [Freecodecamp microservices courses](https://www.freecodecamp.org/news/python-microservices-course/)
 - [Lightbend microservices courses](https://academy.lightbend.com/)
-
+- [AI Cources ](https://www.fast.ai/)
 
 ### Корисна інформація
  
